@@ -22,18 +22,6 @@ var TelefonoConCamara = /** @class */ (function (_super) {
     function TelefonoConCamara(estaPrendido, bateriaActual) {
         return _super.call(this, estaPrendido, bateriaActual) || this;
     }
-    TelefonoConCamara.prototype.mandarMensaje = function (mensaje) {
-        console.log(mensaje);
-    };
-    TelefonoConCamara.prototype.hacerLlamada = function (numero) {
-        console.log("Llamando a ".concat(numero));
-    };
-    TelefonoConCamara.prototype.prenderApagar = function () {
-        _super.prototype.prenderApagar.call(this);
-    };
-    TelefonoConCamara.prototype.cargarBateria = function (carga) {
-        _super.prototype.cargarBateria.call(this, carga);
-    };
     TelefonoConCamara.prototype.sacarFoto = function () {
         console.log('Sacando foto');
     };
