@@ -24,18 +24,6 @@ var TelefonoConRadio = /** @class */ (function (_super) {
         _this.frecuenciaActual = frecuenciaActual;
         return _this;
     }
-    TelefonoConRadio.prototype.mandarMensaje = function (mensaje) {
-        console.log(mensaje);
-    };
-    TelefonoConRadio.prototype.hacerLlamada = function (numero) {
-        console.log("Llamando a ".concat(numero));
-    };
-    TelefonoConRadio.prototype.prenderApagar = function () {
-        _super.prototype.prenderApagar.call(this);
-    };
-    TelefonoConRadio.prototype.cargarBateria = function (carga) {
-        _super.prototype.cargarBateria.call(this, carga);
-    };
     TelefonoConRadio.prototype.verFrecuenciaActual = function () {
         console.log("La frecuencia actual es ".concat(this.frecuenciaActual));
     };
