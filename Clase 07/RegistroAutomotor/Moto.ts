@@ -7,4 +7,9 @@ export default class Moto extends Vehiculo {
         super(nombre, marca, modelo, patente);
     }
 
+    public wheelie(){
+        console.log("Levantas la rueda delantera");
+        
+    }
+
 }

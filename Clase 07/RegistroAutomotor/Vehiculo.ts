@@ -1,9 +1,9 @@
 export default class Vehiculo {
     
-    private nombre: string;
-    private marca: string;
-    private modelo: string;
-    private patente: string;
+    protected nombre: string;
+    protected marca: string;
+    protected modelo: string;
+    protected patente: string;
 
 
     public constructor(nombre: string, marca: string, modelo: string, patente: string) {

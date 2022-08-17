@@ -8,4 +8,8 @@ export default class Auto extends Vehiculo{
     }
     
     
+    public picada(){
+        console.log("Corres una picada.(Legal, en un picódromo)");
+        
+    }
 }
