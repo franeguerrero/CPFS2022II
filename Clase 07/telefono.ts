@@ -1,6 +1,8 @@
 export class Telefono {
+
     protected estaPrendido: boolean;
     protected bateriaActual: number;
+
 
     constructor(estaPrendido: boolean, bateriaActual: number) {
         this.estaPrendido = estaPrendido;
